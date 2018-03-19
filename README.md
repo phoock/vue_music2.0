@@ -17,5 +17,10 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+### dependencies介绍
+``` bash
+"babel-runtime" : "es6语法转义"
+"fastclick" : "解决移动端点击300ms延迟的问题"
+"babel-polyfill" : "对es6的api进行兼容,比如promise"
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+```
